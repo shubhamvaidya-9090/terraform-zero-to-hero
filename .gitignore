@@ -1,3 +1,5 @@
 # Ignore all JSON files
 *.json
 /storage-transfer-services/.terraform/
+**/.terraform/*
+.terraform.lock.hcl
