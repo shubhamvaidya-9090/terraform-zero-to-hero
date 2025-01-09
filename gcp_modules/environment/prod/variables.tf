@@ -7,10 +7,6 @@ variable "region" {
   type        = string
 }
 
-variable "template_annotations" {
-  description = "Annotations to the container metadata including VPC Connector and SQL. See [more details](https://cloud.google.com/run/docs/reference/rpc/google.cloud.run.v1#revisiontemplate)"
-  type        = map(string)
-}
 
 variable "service_account_email" {
   description = "Service Account email needed for the service"
