@@ -4,3 +4,16 @@
 /cloud-run-service/.terraform/
 **/.terraform/*
 .terraform.lock.hcl
+
+# Terraform State Files
+*.tfstate
+*.tfstate.backup
+
+# Terraform Plan Files
+*.tfplan
+
+# Ignore sensitive files
+.terraform/
+*.tfvars
+*.tfvars.json
+
